@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea-body textarea {
+    margin: 4rem auto;
+    width: 50vw;
+    height: 30vh;
+    resize: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333;
+    background-color: #fff;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.textarea-body textarea:focus {
+    outline: none;
+    border: 1px solid rgb(7, 149, 215);
+}
+
+.msg-btn,
+.room-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

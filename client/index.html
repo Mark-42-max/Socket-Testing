@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Socket Test</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="form1">
+
+            <div class="textarea-body">
+                <textarea name="message" id="text-field" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="msg-btn">
+                <label for="text">Text</label> &nbsp;&nbsp;&nbsp;
+                <input type="text" name="text" id="msg-field" />&nbsp;&nbsp;&nbsp;
+                <button id="msg-submit" type="submit">Message</button>&nbsp;&nbsp;&nbsp;
+            </div>
+
+
+        </form>
+
+        <br>
+
+        <form action="">
+            <div class="room-btn">
+                <label for="room">Room</label>&nbsp;&nbsp;&nbsp;
+                <input type="text" name="room" id="room-field" />&nbsp;&nbsp;&nbsp;
+                <button id="room-submit" type="submit">Room</button>&nbsp;&nbsp;&nbsp;
+            </div>
+        </form>
+
+        <div>
+            <button id="clear">Clear Text Area</button>
+            <button id="disconnect">Disconnect Client</button>
+        </div>
+
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
