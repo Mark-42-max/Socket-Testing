@@ -1,4 +1,4 @@
-# README Boilerplate
+# Socket.io Testing
 
 Socket Testing for basic HTML, CSS and JS with snowpack server on client side. 
 
